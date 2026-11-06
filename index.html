@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Anurag Pandey · Cybersecurity</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fafaf8;--ink:#161616;--mute:#6b6b66;--line:#e4e4df;--accent:#0b6e4f;
+--serif:'Newsreader',Georgia,'Times New Roman',serif;--sans:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#111110;--ink:#ececE8;--mute:#9a9a94;--line:#2a2a27;--accent:#4fd1a1}}
+:root[data-theme="dark"]{--bg:#111110;--ink:#ececE8;--mute:#9a9a94;--line:#2a2a27;--accent:#4fd1a1}
+*{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.7 var(--sans);overflow-x:hidden}
+main{max-width:640px;margin:0 auto;padding:56px 24px 80px}
+nav{display:flex;gap:20px;font-size:.9rem;margin-bottom:72px;flex-wrap:wrap}
+a{color:var(--ink);text-decoration-color:var(--line);text-underline-offset:4px}
+a:hover{color:var(--accent);text-decoration-color:var(--accent)}
+nav a{text-decoration:none;color:var(--mute)}nav a:hover{color:var(--accent)}
+h1{font:400 clamp(2.2rem,8vw,3.4rem)/1.1 var(--serif);margin:0 0 18px;letter-spacing:-.01em}
+.lead{font-size:1.1rem;color:var(--mute);margin:0;max-width:52ch}
+h2{font:600 .78rem/1 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--mute);margin:0 0 20px}
+section{margin-top:72px;padding-top:28px;border-top:1px solid var(--line)}
+p{margin:0 0 14px}
+.row{display:grid;gap:4px;padding:16px 0;border-bottom:1px solid var(--line)}
+.row:last-of-type{border-bottom:0}
+.row h3{font:500 1.05rem/1.4 var(--sans);margin:0}
+.row p{color:var(--mute);margin:0}
+.meta{font-size:.85rem;color:var(--mute)}
+.skills{display:flex;flex-wrap:wrap;gap:8px 18px;margin:0;padding:0;list-style:none;color:var(--mute)}
+.skills li::before{content:"· ";color:var(--accent)}
+.note{font-size:.85rem;color:var(--mute);margin-top:14px}
+footer{margin-top:80px;font-size:.85rem;color:var(--mute)}
+</style>
+</head>
+<body>
+<main>
+<nav><a href="#about">About</a><a href="#projects">Projects</a><a href="#resume">Resume</a><a href="#contact">Contact</a></nav>
+
+<header>
+  <h1>Anurag Pandey</h1>
+  <p class="lead">Information technology student focused on cybersecurity, with an engineering background and a habit of finding what breaks.</p>
+</header>
+
+<section id="about">
+  <h2>About</h2>
+  <p>I’m based in the Greater Lucknow area. My bachelor’s in mechanical engineering taught me to take systems apart, find the weak point and fix it. Now I’m applying that approach to security.</p>
+  <p>I work well as a team leader or a team member, I enjoy public speaking, and I care about meeting deadlines without cutting corners.</p>
+  <ul class="skills"><li>Cybersecurity</li><li>Google Cloud Platform</li><li>Robotics</li><li>AutoCAD Architecture</li></ul>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="row"><h3>Project one</h3><p>One line on what you built or secured, and what you learned.</p></div>
+  <div class="row"><h3>CTF writeups</h3><p>Walkthroughs of challenges you’ve solved.</p></div>
+  <div class="row"><h3>Home lab</h3><p>The setup you use to practice and test.</p></div>
+  <p class="note">Placeholders. Send your real projects and I’ll replace them.</p>
+</section>
+
+<section id="resume">
+  <h2>Resume</h2>
+  <div class="row"><span class="meta">August 2026 to August 2029</span><h3>B.Tech, Information Technology</h3><p>Dr. A.P.J. Abdul Kalam Technical University (AKTU), Lucknow</p></div>
+  <div class="row"><span class="meta">Earlier</span><h3>Bachelor’s in Mechanical Engineering</h3><p>Worked under the mechanical department, joined projects and helped prepare and run laboratory activities.</p></div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p><a href="mailto:anuragpandey7080@gmail.com">anuragpandey7080@gmail.com</a></p>
+</section>
+
+<footer>© Anurag Pandey</footer>
+</main>
+</body>
+</html>
